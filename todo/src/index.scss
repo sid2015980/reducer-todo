@@ -1,0 +1,72 @@
+* {
+    margin: 0, auto;
+    padding: 0;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  .App {
+    width: 600px;
+    margin: 0 auto;
+    font-size: 2rem;
+    padding: 1rem;
+  
+    h1 {
+      text-align: center;
+      text-transform: capitalize;
+    }
+  
+    .todoDiv {
+      .todo {
+        background-blend-mode: lighten;
+        background-color: white;
+        box-shadow: 2px 2px 15px 0px rgba(38, 38, 38, 0.92);
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-bottom: 1rem;
+        padding: 0.4rem;
+        text-transform: capitalize;
+        color: #333;
+        cursor: pointer;
+      }
+  
+      .completed {
+        text-decoration: line-through;
+        text-decoration-color: red;
+        color: rgb(198, 193, 193);
+        background: #f3f3f3;
+      }
+    }
+  
+    .form {
+      width: 100%;
+      margin: 0 auto;
+  
+      input {
+        display: inline-block;
+        width: 100%;
+        font-size: 1rem;
+        padding: 0.5rem 0.3rem;
+        border-radius: 5px;
+        border: 1px solid dodgerblue;
+        text-transform: capitalize;
+      }
+  
+      button {
+        width: 100%;
+        font-size: 1rem;
+        padding: 0.5rem 2rem;
+        margin: 0 auto;
+        text-transform: capitalize;
+        background: dodgerblue;
+        color: white;
+        border-radius: 15px;
+      }
+      button:hover{
+        background-color: burlywood;
+        color: black;
+      }
+    }
+  }
